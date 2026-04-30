@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Output directory
+output/*.docx
+
+# Test files
+test*.docx
+test*.md
+
+# Font files (copyright protected, do NOT commit)
+*.ttf
+*.ttc
+*.otf
+*.fon
+*.woff
+*.woff2
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

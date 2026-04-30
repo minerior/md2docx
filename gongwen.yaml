@@ -1,0 +1,37 @@
+standard: "GB/T 9704-2012"
+
+# 封面配置
+cover:
+  enabled: true
+  add_page_break: true
+  title_style: "Title"
+  subtitle_style: "Subtitle"
+  date_style: "Subtitle"
+  spacing:
+    before_title_lines: 8      # 标题前空行数，把标题推到页面中间区域
+    title_to_subtitle_lines: 2  # 标题到副标题空几行
+    subtitle_to_date_lines: 2   # 副标题到日期空几行
+
+# 目录配置
+toc:
+  enabled: true
+  add_page_break: true        # 目录后是否加分页符
+  title: "目录"               # 目录标题文字
+  title_style: "目录标题"      # 目录标题使用的样式
+  levels: "1-7"               # 包含的标题级别范围
+
+# content type -> Word 样式名 映射
+# 样式由 Normal.docx 模板控制，代码只负责引用
+type_mapping:
+  title: "Title"
+  subtitle: "Subtitle"
+  heading_1: "Heading 1"
+  heading_2: "Heading 2"
+  heading_3: "Heading 3"
+  heading_4: "Heading 4"
+  heading_5: "Heading 5"
+  heading_6: "Heading 6"
+  heading_7: "Heading 7"
+  body_text: "Normal"
+  page_break: "page_break"
+  table: "table"
